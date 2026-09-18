@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/abbas/projects/robot-telemetry/build",
+  "command": "/usr/bin/c++  -I/home/abbas/projects/robot-telemetry/include -g -std=gnu++20 -Wall -Wextra -Wpedantic -o CMakeFiles/telemetry_sim.dir/src/main.cpp.o -c /home/abbas/projects/robot-telemetry/src/main.cpp",
+  "file": "/home/abbas/projects/robot-telemetry/src/main.cpp",
+  "output": "CMakeFiles/telemetry_sim.dir/src/main.cpp.o"
+}
+]

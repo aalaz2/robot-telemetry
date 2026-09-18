@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/telemetry_sim.dir/link.d CMakeFiles/telemetry_sim.dir/src/main.cpp.o -o telemetry_sim

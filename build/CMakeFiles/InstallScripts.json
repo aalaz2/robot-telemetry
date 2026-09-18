@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/abbas/projects/robot-telemetry/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
