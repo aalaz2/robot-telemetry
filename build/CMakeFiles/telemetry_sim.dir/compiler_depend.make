@@ -295,6 +295,38 @@ CMakeFiles/telemetry_sim.dir/src/main.cpp.o: /home/abbas/projects/robot-telemetr
   /usr/lib/gcc/x86_64-linux-gnu/15/include/stddef.h \
   /usr/lib/gcc/x86_64-linux-gnu/15/include/stdint.h
 
+telemetry_sim: /lib64/ld-linux-x86-64.so.2 \
+  /usr/lib/x86_64-linux-gnu/Scrt1.o \
+  /usr/lib/x86_64-linux-gnu/crti.o \
+  /usr/lib/x86_64-linux-gnu/crtn.o \
+  /usr/lib/x86_64-linux-gnu/libc.so \
+  /usr/lib/x86_64-linux-gnu/libgcc_s.so.1 \
+  /usr/lib/x86_64-linux-gnu/libm.so \
+  /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o \
+  /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o \
+  /usr/lib/gcc/x86_64-linux-gnu/15/libgcc.a \
+  /usr/lib/gcc/x86_64-linux-gnu/15/libgcc_s.so \
+  /usr/lib/gcc/x86_64-linux-gnu/15/libstdc++.so \
+  /usr/lib/x86_64-linux-gnu/libc.so.6 \
+  /usr/lib/x86_64-linux-gnu/libc_nonshared.a \
+  /usr/lib/x86_64-linux-gnu/libm.so.6 \
+  /usr/lib/x86_64-linux-gnu/libmvec.so.1 \
+  CMakeFiles/telemetry_sim.dir/src/main.cpp.o
+
+
+/usr/lib/x86_64-linux-gnu/libc_nonshared.a:
+
+/usr/lib/x86_64-linux-gnu/libc.so.6:
+
+/usr/lib/x86_64-linux-gnu/libgcc_s.so.1:
+
+/usr/lib/x86_64-linux-gnu/libc.so:
+
+/usr/lib/x86_64-linux-gnu/crti.o:
+
+/usr/lib/gcc/x86_64-linux-gnu/15/libstdc++.so:
+
+/lib64/ld-linux-x86-64.so.2:
 
 /usr/lib/gcc/x86_64-linux-gnu/15/include/stdint.h:
 
@@ -305,6 +337,8 @@ CMakeFiles/telemetry_sim.dir/src/main.cpp.o: /home/abbas/projects/robot-telemetr
 /usr/include/x86_64-linux-gnu/sys/select.h:
 
 /usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o:
 
 /usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
 
@@ -331,6 +365,8 @@ CMakeFiles/telemetry_sim.dir/src/main.cpp.o: /home/abbas/projects/robot-telemetr
 /usr/include/x86_64-linux-gnu/bits/wchar.h:
 
 /usr/include/x86_64-linux-gnu/bits/waitstatus.h:
+
+/usr/lib/x86_64-linux-gnu/crtn.o:
 
 /usr/include/x86_64-linux-gnu/bits/waitflags.h:
 
@@ -442,6 +478,8 @@ CMakeFiles/telemetry_sim.dir/src/main.cpp.o: /home/abbas/projects/robot-telemetr
 
 /usr/include/c++/15/debug/debug.h:
 
+/usr/lib/gcc/x86_64-linux-gnu/15/libgcc_s.so:
+
 /usr/include/c++/15/bits/stl_construct.h:
 
 /usr/include/c++/15/bits/ranges_algobase.h:
@@ -472,11 +510,15 @@ CMakeFiles/telemetry_sim.dir/src/main.cpp.o: /home/abbas/projects/robot-telemetr
 
 /usr/include/c++/15/tr1/modified_bessel_func.tcc:
 
+/usr/lib/x86_64-linux-gnu/libmvec.so.1:
+
 /usr/include/c++/15/bits/stl_iterator_base_types.h:
 
 /usr/include/stdc-predef.h:
 
 /usr/include/c++/15/bits/formatfwd.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o:
 
 /usr/include/c++/15/bits/range_access.h:
 
@@ -538,6 +580,8 @@ CMakeFiles/telemetry_sim.dir/src/main.cpp.o: /home/abbas/projects/robot-telemetr
 
 /usr/include/c++/15/bits/basic_ios.tcc:
 
+/usr/lib/gcc/x86_64-linux-gnu/15/libgcc.a:
+
 /usr/include/c++/15/array:
 
 /usr/include/c++/15/bits/ranges_util.h:
@@ -555,6 +599,8 @@ CMakeFiles/telemetry_sim.dir/src/main.cpp.o: /home/abbas/projects/robot-telemetr
 /usr/include/c++/15/bits/cpp_type_traits.h:
 
 /usr/include/c++/15/streambuf:
+
+/usr/lib/x86_64-linux-gnu/libm.so:
 
 /usr/include/asm-generic/int-ll64.h:
 
@@ -726,6 +772,8 @@ CMakeFiles/telemetry_sim.dir/src/main.cpp.o: /home/abbas/projects/robot-telemetr
 
 /usr/include/c++/15/tr1/gamma.tcc:
 
+/usr/lib/x86_64-linux-gnu/Scrt1.o:
+
 /usr/include/c++/15/tr1/hypergeometric.tcc:
 
 /usr/include/x86_64-linux-gnu/bits/time.h:
@@ -808,6 +856,8 @@ CMakeFiles/telemetry_sim.dir/src/main.cpp.o: /home/abbas/projects/robot-telemetr
 
 /usr/include/x86_64-linux-gnu/bits/fp-logb.h:
 
+/usr/lib/x86_64-linux-gnu/libm.so.6:
+
 /usr/include/c++/15/bits/basic_ios.h:
 
 /usr/include/x86_64-linux-gnu/bits/locale.h:
@@ -859,6 +909,8 @@ CMakeFiles/telemetry_sim.dir/src/main.cpp.o: /home/abbas/projects/robot-telemetr
 /usr/include/x86_64-linux-gnu/bits/time64.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
+
+CMakeFiles/telemetry_sim.dir/src/main.cpp.o:
 
 /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
 
