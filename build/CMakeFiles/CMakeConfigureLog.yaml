@@ -2222,3 +2222,43 @@ events:
       Running the CXX compiler's linker: "/usr/bin/ld" "-v"
       GNU ld (GNU Binutils for Ubuntu) 2.46
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/usr/share/cmake-4.2/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-4.2/Modules/FindThreads.cmake:162 (check_cxx_source_compiles)"
+      - "/usr/share/cmake-4.2/Modules/FindThreads.cmake:226 (_threads_check_libc)"
+      - "CMakeLists.txt:14 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/home/abbas/projects/robot-telemetry/build/CMakeFiles/CMakeScratch/TryCompile-5KRoHZ"
+      binary: "/home/abbas/projects/robot-telemetry/build/CMakeFiles/CMakeScratch/TryCompile-5KRoHZ"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/home/abbas/projects/robot-telemetry/build/CMakeFiles/CMakeScratch/TryCompile-5KRoHZ'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_2dd92/fast
+        gmake[1]: Entering directory '/home/abbas/projects/robot-telemetry/build/CMakeFiles/CMakeScratch/TryCompile-5KRoHZ'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_2dd92.dir/build.make CMakeFiles/cmTC_2dd92.dir/build
+        gmake[2]: Entering directory '/home/abbas/projects/robot-telemetry/build/CMakeFiles/CMakeScratch/TryCompile-5KRoHZ'
+        Building CXX object CMakeFiles/cmTC_2dd92.dir/src.cxx.o
+        /usr/bin/c++ -DCMAKE_HAVE_LIBC_PTHREAD  -std=gnu++20 -o CMakeFiles/cmTC_2dd92.dir/src.cxx.o -c /home/abbas/projects/robot-telemetry/build/CMakeFiles/CMakeScratch/TryCompile-5KRoHZ/src.cxx
+        Linking CXX executable cmTC_2dd92
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2dd92.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_2dd92.dir/src.cxx.o -o cmTC_2dd92
+        gmake[2]: Leaving directory '/home/abbas/projects/robot-telemetry/build/CMakeFiles/CMakeScratch/TryCompile-5KRoHZ'
+        gmake[1]: Leaving directory '/home/abbas/projects/robot-telemetry/build/CMakeFiles/CMakeScratch/TryCompile-5KRoHZ'
+        
+      exitCode: 0
+...

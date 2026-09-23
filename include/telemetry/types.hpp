@@ -1,5 +1,5 @@
 #pragma once
-
+#include <variant>
 #include <chrono>
 #include <cstdint>\
 
@@ -14,8 +14,15 @@ namespace telemetry {
         double right_rad_per_s{};
     };
 
-    struct GyroMeasurment {
+    struct GyroMeasurement {
         Timestamp timestamp{};
         double angular_velocity_z_rad_s{}; //yaw rate?
     };
+
+    using Measurement = std::variant<WheelSpeedMeasurement, GyroMeasurement>;
+
+    inline Timestamp GetTimestamp(const Measurement& m) {
+        return std::visit([](const auto& msg) { return msg.timestamp; }, m);
+    }
 } //namespace end
+
