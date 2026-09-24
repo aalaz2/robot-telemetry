@@ -64,10 +64,12 @@ CMAKE_BINARY_DIR = /home/abbas/projects/robot-telemetry/build
 
 # The main recursive "all" target.
 all: CMakeFiles/telemetry_sim.dir/all
+all: CMakeFiles/telemetry_replay.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
 codegen: CMakeFiles/telemetry_sim.dir/codegen
+codegen: CMakeFiles/telemetry_replay.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -76,6 +78,7 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/telemetry_sim.dir/clean
+clean: CMakeFiles/telemetry_replay.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -85,7 +88,7 @@ clean: CMakeFiles/telemetry_sim.dir/clean
 CMakeFiles/telemetry_sim.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/telemetry_sim.dir/build.make CMakeFiles/telemetry_sim.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/telemetry_sim.dir/build.make CMakeFiles/telemetry_sim.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abbas/projects/robot-telemetry/build/CMakeFiles --progress-num=1,2 "Built target telemetry_sim"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abbas/projects/robot-telemetry/build/CMakeFiles --progress-num=3,4 "Built target telemetry_sim"
 .PHONY : CMakeFiles/telemetry_sim.dir/all
 
 # Build rule for subdir invocation for target.
@@ -102,13 +105,45 @@ telemetry_sim: CMakeFiles/telemetry_sim.dir/rule
 # codegen rule for target.
 CMakeFiles/telemetry_sim.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/telemetry_sim.dir/build.make CMakeFiles/telemetry_sim.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abbas/projects/robot-telemetry/build/CMakeFiles --progress-num=1,2 "Finished codegen for target telemetry_sim"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abbas/projects/robot-telemetry/build/CMakeFiles --progress-num=3,4 "Finished codegen for target telemetry_sim"
 .PHONY : CMakeFiles/telemetry_sim.dir/codegen
 
 # clean rule for target.
 CMakeFiles/telemetry_sim.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/telemetry_sim.dir/build.make CMakeFiles/telemetry_sim.dir/clean
 .PHONY : CMakeFiles/telemetry_sim.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/telemetry_replay.dir
+
+# All Build rule for target.
+CMakeFiles/telemetry_replay.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/telemetry_replay.dir/build.make CMakeFiles/telemetry_replay.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/telemetry_replay.dir/build.make CMakeFiles/telemetry_replay.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abbas/projects/robot-telemetry/build/CMakeFiles --progress-num=1,2 "Built target telemetry_replay"
+.PHONY : CMakeFiles/telemetry_replay.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/telemetry_replay.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/abbas/projects/robot-telemetry/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/telemetry_replay.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/abbas/projects/robot-telemetry/build/CMakeFiles 0
+.PHONY : CMakeFiles/telemetry_replay.dir/rule
+
+# Convenience name for target.
+telemetry_replay: CMakeFiles/telemetry_replay.dir/rule
+.PHONY : telemetry_replay
+
+# codegen rule for target.
+CMakeFiles/telemetry_replay.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/telemetry_replay.dir/build.make CMakeFiles/telemetry_replay.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abbas/projects/robot-telemetry/build/CMakeFiles --progress-num=1,2 "Finished codegen for target telemetry_replay"
+.PHONY : CMakeFiles/telemetry_replay.dir/codegen
+
+# clean rule for target.
+CMakeFiles/telemetry_replay.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/telemetry_replay.dir/build.make CMakeFiles/telemetry_replay.dir/clean
+.PHONY : CMakeFiles/telemetry_replay.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

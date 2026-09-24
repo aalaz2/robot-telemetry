@@ -1,3 +1,4 @@
 /home/abbas/projects/robot-telemetry/build/CMakeFiles/telemetry_sim.dir
+/home/abbas/projects/robot-telemetry/build/CMakeFiles/telemetry_replay.dir
 /home/abbas/projects/robot-telemetry/build/CMakeFiles/edit_cache.dir
 /home/abbas/projects/robot-telemetry/build/CMakeFiles/rebuild_cache.dir

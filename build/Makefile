@@ -129,6 +129,19 @@ telemetry_sim/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/telemetry_sim.dir/build.make CMakeFiles/telemetry_sim.dir/build
 .PHONY : telemetry_sim/fast
 
+#=============================================================================
+# Target rules for targets named telemetry_replay
+
+# Build rule for target.
+telemetry_replay: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 telemetry_replay
+.PHONY : telemetry_replay
+
+# fast build rule for target.
+telemetry_replay/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/telemetry_replay.dir/build.make CMakeFiles/telemetry_replay.dir/build
+.PHONY : telemetry_replay/fast
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -153,6 +166,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/telemetry_sim.dir/build.make CMakeFiles/telemetry_sim.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/replay_main.o: src/replay_main.cpp.o
+.PHONY : src/replay_main.o
+
+# target to build an object file
+src/replay_main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/telemetry_replay.dir/build.make CMakeFiles/telemetry_replay.dir/src/replay_main.cpp.o
+.PHONY : src/replay_main.cpp.o
+
+src/replay_main.i: src/replay_main.cpp.i
+.PHONY : src/replay_main.i
+
+# target to preprocess a source file
+src/replay_main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/telemetry_replay.dir/build.make CMakeFiles/telemetry_replay.dir/src/replay_main.cpp.i
+.PHONY : src/replay_main.cpp.i
+
+src/replay_main.s: src/replay_main.cpp.s
+.PHONY : src/replay_main.s
+
+# target to generate assembly for a file
+src/replay_main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/telemetry_replay.dir/build.make CMakeFiles/telemetry_replay.dir/src/replay_main.cpp.s
+.PHONY : src/replay_main.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -161,10 +198,14 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... telemetry_replay"
 	@echo "... telemetry_sim"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/replay_main.o"
+	@echo "... src/replay_main.i"
+	@echo "... src/replay_main.s"
 .PHONY : help
 
 

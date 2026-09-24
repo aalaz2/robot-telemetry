@@ -15,8 +15,14 @@ find_package(Threads REQUIRED)
 
 add_executable(telemetry_sim
     src/main.cpp
+)
 
-    )
 target_include_directories(telemetry_sim PRIVATE include)
+
+add_executable(telemetry_replay
+    src/replay_main.cpp
+)
+
+target_include_directories(telemetry_replay PRIVATE include)
 
 target_link_libraries(telemetry_sim PRIVATE Threads::Threads)
